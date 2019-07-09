@@ -113,8 +113,9 @@ alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
 # locate.updatedb alias
 alias updatedb="sudo /usr/libexec/locate.updatedb"
 
-# emacsclient.sh alias
-alias e="/Users/hajimetch/.bin/StartEmacs.sh"
+# emacsclient alias
+alias e="emacsclient -nw --socket-name=CUI -a ''"
+alias ee="StartEmacs.sh"
 
 
 ########################################
