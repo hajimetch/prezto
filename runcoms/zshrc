@@ -108,7 +108,7 @@ alias ls='ls -G -F'
 alias l='exa -lha'
 
 # brew alias
-alias brew="PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin brew"
+alias brew="PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin brew"
 
 # locate.updatedb alias
 alias updatedb="sudo /usr/libexec/locate.updatedb"
