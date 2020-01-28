@@ -17,8 +17,8 @@ fi
 # Editors
 #
 
-export EDITOR="emacsclient -nw --socket-name=CUI -a ''"
-export VISUAL="emacsclient -nw --socket-name=CUI -a ''"
+# export EDITOR="emacsclient -nw --socket-name=CUI -a ''"
+export EDITOR='vim'
 export PAGER='less'
 
 #
@@ -33,10 +33,7 @@ fi
 # Python
 #
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PYTHONPATH="/Users/hajimetch/.pyenv/versions/3.6.0/lib/python3.6/site-packages"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+export PYTHONPATH="/Users/hajimetch/opt/anaconda3/bin"
 
 #
 # GTAGS
@@ -63,7 +60,6 @@ path=(
   /usr/local/opt/texinfo/bin
   $HOME/.bin
   $HOME/.nodebrew/current/bin
-  $PYENV_ROOT/bin
   $path
 )
 
