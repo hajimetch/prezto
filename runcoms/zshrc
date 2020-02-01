@@ -102,11 +102,14 @@ alias -g G='| grep'
 # C で標準出力をクリップボードにコピーする
 alias -g C='| pbcopy'
 
+# git ショートカットを一覧化
+alias zgit='cat ~/.zprezto/modules/git/alias.zsh | grep "alias "'
+
 # ls alias
 export CLICOLOR=1
 alias ls='ls -G -F'
 alias l='ls -A'
-alias lll='exa -lha'
+alias le='exa -lha'
 
 # brew alias
 alias brew="PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin brew"
@@ -116,7 +119,7 @@ alias updatedb="sudo /usr/libexec/locate.updatedb"
 
 # emacsclient alias
 alias e="emacsclient -nw --socket-name=CUI -a ''"
-alias ee="StartEmacs.sh"
+alias emacs="StartEmacs.sh"
 
 
 ########################################
