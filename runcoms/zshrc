@@ -117,10 +117,6 @@ alias brew="PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin br
 # locate.updatedb alias
 alias updatedb="sudo /usr/libexec/locate.updatedb"
 
-# emacsclient alias
-alias em="emacsclient -nw --socket-name=CUI -a '' 2>/dev/null"
-alias emacs="StartEmacs.sh"
-
 
 ########################################
 # anyframe
