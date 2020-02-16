@@ -105,10 +105,12 @@ alias -g C='| pbcopy'
 # git ショートカットを一覧化
 alias zgit='cat ~/.zprezto/modules/git/alias.zsh | grep "alias "'
 
-# ls alias
+# ls aliases
 export CLICOLOR=1
-alias ls='ls -G -F'
-alias l='ls -A'
+alias ls='ls -GF'  # ls base command
+alias ll='ls -l'
+alias la='ls -la'
+alias l='ls -a'
 alias le='exa -lha'
 
 # brew alias
