@@ -114,10 +114,13 @@ alias l='ls -a'
 alias le='exa -lha'
 
 # brew alias
-alias brew="PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin brew"
+alias brew='PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin brew'
 
 # locate.updatedb alias
-alias updatedb="sudo /usr/libexec/locate.updatedb"
+alias updatedb='sudo /usr/libexec/locate.updatedb'
+
+# generate password alias
+alias pw='pwgen -1s 12 | tr -d "\n" | pbcopy'
 
 
 ########################################
