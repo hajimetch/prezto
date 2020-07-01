@@ -122,6 +122,9 @@ alias updatedb='sudo /usr/libexec/locate.updatedb'
 # generate password alias
 alias pw='pwgen -1s 12 | tr -d "\n" | pbcopy'
 
+# jupyter lab alias
+alias jl='jupyter lab'
+
 
 ########################################
 # anyframe
