@@ -35,13 +35,6 @@ fi
 export PYTHONPATH="/Users/hajimetch/opt/anaconda3/bin"
 
 #
-# GTAGS
-#
-
-export GTAGSCONF="/usr/local/share/gtags/gtags.conf"
-export GTAGSLABEL=pygments
-
-#
 # Paths
 #
 
